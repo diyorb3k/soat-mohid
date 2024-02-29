@@ -460,25 +460,6 @@ header {
     height: 49px; */
     display: block;
   }
-
-  .burgerMenu {
-    width: 100%;
-    height: 100%;
-    background-color: #ffffff;
-    /* border: 1px solid; */
-    position: absolute;
-    top: 70px;
-    left: 0;
-    /* bottom: 40px; */
-    display: flex;
-    transform: translateX(-120%);
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    transition: all 0.3s ease-in;
-    text-align: center;
-  }
 }
 
 /* 500px */
