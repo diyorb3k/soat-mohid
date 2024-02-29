@@ -466,15 +466,12 @@ header {
 /* 500px */
 
 @media screen and (max-width: 500px) {
-  /* header {
-      background-color: #000;
-    } */
-
-  .card-corzinka {
-    position: absolute;
-    margin-top: -390px;
+  .card-corzinka{
+    position:absolute;
+    margin-top:-390px;
     background-color: blue;
-    margin-left:260px;
+    /* margin-left:260px; */
+    /* margin-right:-50px; */
     border-radius: 50%;
     width: 40px;
     height: 40px;
@@ -832,7 +829,7 @@ header {
   position: absolute;
   margin-top: -340px;
   background: red;
-  margin-left: 280px;
+  margin-left: 270px;
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -844,7 +841,7 @@ header {
   position: absolute;
   margin-top: -390px;
   background-color: blue;
-  margin-left: 280px;
+  margin-left: 270px;
   border-radius: 50%;
   width: 40px;
   height: 40px;
