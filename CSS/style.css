@@ -795,14 +795,58 @@ header {
   max-width: 334px;
   background: rgba(246, 246, 246, 1);
   padding: 29px 43px 27px 41px;
+  border-radius: 5%;
+  /* margin-left: 25px; */
+  position: relative;
+  max-width: 334px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-corzinka {
+  position: absolute;
+  margin-top: -360px;
+  background-color: blue;
+  margin-left: 280px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
 }
 .img-foter {
 }
-.chiziq {
+.card-img-1 {
   display: flex;
-  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.chiziq {
+  /* display: flex; */
+  /* text-align: center; */
   /* flex-direction: column; */
   /* align-items: center; */
+}
+.yuz-form {
+  text-align: center;
+  display: flex;
+  /* margin: 0 auto; */
+  justify-content: center;
+  margin-left: 100px;
+}
+.cena-2 {
+  display: flex;
+  margin-left: 80px;
+  gap: 3px;
+}
+.cena {
+  text-align: center;
+  display: flex;
+  /* margin-left: 100px; */
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 .chiziq h4 {
   font-family: Poppins;
