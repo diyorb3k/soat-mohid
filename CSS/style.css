@@ -466,9 +466,9 @@ header {
 /* 500px */
 
 @media screen and (max-width: 500px) {
-  .card-corzinka{
-    position:absolute;
-    margin-top:-390px;
+  .card-corzinka {
+    position: absolute;
+    margin-top: -390px;
     background-color: blue;
     /* margin-left:260px; */
     /* margin-right:-50px; */
@@ -480,13 +480,24 @@ header {
     justify-content: center;
     max-width: 335px;
   }
+
+  .card-grup-2 {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+  }
   .img-foter {
   }
   .card-img-1 {
     /* display: flex;
       align-items: center;
       justify-content: center; */
-    margin-left: -20px;
+    /* margin-left: -20px; */
   }
 
   .nav {
@@ -849,8 +860,10 @@ header {
   align-items: center;
   justify-content: center;
 }
-.card-grup-2{
-  dis
+.card-grup-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .img-foter {
 }
