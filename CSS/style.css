@@ -474,13 +474,14 @@ header {
     position: absolute;
     margin-top: -390px;
     background-color: blue;
-    margin-left: 270px;
+    margin-left: 290px;
     border-radius: 50%;
     width: 40px;
     height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
+    max-width: 335px;
   }
   .img-foter {
   }
@@ -772,6 +773,7 @@ header {
   width: 100%;
 }
 .card-grup {
+  margin-top: 73px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -779,6 +781,7 @@ header {
 }
 @media screen and (max-width: 1120px) {
   .card-grup {
+    /* margin-top: 73px; */
     text-align: center;
     justify-content: center;
     display: flex;
@@ -848,6 +851,9 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.card-grup-2{
+  dis
 }
 .img-foter {
 }
