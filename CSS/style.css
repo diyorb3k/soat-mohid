@@ -510,6 +510,7 @@ header {
   .nav-logoLink-img {
     width: 125px;
     height: 45px;
+    margin-left: -40px;
   }
 
   .nav-wrapper {
@@ -642,6 +643,67 @@ header {
   max-width: 461px;
   width: 100%;
 }
+
+.ovul-1 {
+  max-width: 520px;
+  border: 1px solid red;
+  border-radius: 22px;
+  background-color: #f6f6f6;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 55px;
+}
+.odam-ras {
+  max-width: 162.3px;
+  height: 179px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 34px;
+}
+.start-yulduz {
+  max-width: 140px;
+}
+.owl-carousel {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cascad {
+  border-radius: 15px;
+  border: 1 px solid green;
+  max-width: 162.3px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 34px;
+}
+.dont {
+  max-width: 250px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #8b8e99;
+  padding: 10px 0px 9px 0px;
+}
+.hamza {
+  max-width: 260px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.oversel-card {
+  padding-top: 58px;
+  padding-right: 39px;
+  padding-bottom: 49px;
+}
+
 /* section -1 responsip */
 @media screen and (max-width: 600px) {
   .Discover {
@@ -863,6 +925,8 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  /* flex-direction: column; */
+  gap: 64px 0px;
 }
 .img-foter {
 }
@@ -890,6 +954,16 @@ header {
   margin-left: 80px;
   gap: 3px;
 }
+.cena1 {
+  display: flex;
+  margin-left: 35px;
+  gap: 3px;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+}
 .cena {
   text-align: center;
   display: flex;
@@ -910,4 +984,43 @@ header {
   text-align: center;
   color: rgba(30, 29, 29, 1);
   max-width: 334px;
+}
+.btn-all {
+  margin-top: 64px;
+}
+.btn-all button {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  padding: 3px 25px;
+  border-radius: 20px;
+  border: none;
+  text-align: center;
+  background-color: #3858d6;
+  display: flex;
+  margin: 0 auto;
+}
+.nayn p {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #3858d6;
+  background: none;
+  margin-top: 135px;
+}
+.tex-h4 h4 {
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 5px;
 }
