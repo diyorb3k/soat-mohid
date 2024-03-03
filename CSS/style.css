@@ -385,6 +385,17 @@ header {
 /* 680px */
 
 @media screen and (max-width: 680px) {
+  .card-grup-2 {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
   /* header {
       background-color: #000;
     } */
@@ -727,6 +738,7 @@ header {
 .owl-carousel {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 20px;
 }
 .cascad {
   border-radius: 15px;
@@ -1081,4 +1093,27 @@ header {
   letter-spacing: 0em;
   text-align: center;
   margin-top: 5px;
+}
+@media screen and (max-width: 1039px) {
+  .owl-carousel {
+    display: flex;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .ovul-1 {
+    max-width: 520px;
+    border: 1px solid red;
+    border-radius: 22px;
+    background-color: #f6f6f6;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 55px;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 999px) {
 }
